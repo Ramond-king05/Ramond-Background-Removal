@@ -1,6 +1,4 @@
 import streamlit as st
-#import rembg
-
 from rembg import remove
 from PIL import Image
 from io import BytesIO
@@ -33,7 +31,7 @@ if choice == "Remove":
         col2.write("Background Image Removed :wrench:")
         col2.image(fixed)
         st.sidebar.markdown("\n")
-        st.sidebar.download_button("Download fixed image", convert_image(fixed), "fixed.png", "image/png")
+        st.sidebar.download_button("Download Background Removed Image", convert_image(fixed), "fixed.png", "image/png")
 
     col1, col2 = st.columns(2)
     my_upload = st.sidebar.file_uploader("Upload an image", type=["png", "jpg", "jpeg"])
