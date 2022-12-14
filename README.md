@@ -1,2 +1,3 @@
-# Ramond-Background-Removal
-A wonderful application created by Fasasi Abdul-rahman so as to remove background from images
+# RamondBackgroundRemoval
+
+Upload an image and adjust the settings to remove the background for any image!
