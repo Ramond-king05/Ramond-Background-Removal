@@ -63,4 +63,13 @@ if choice == "About":
     st.success("RAYTECH PROJECT")
     st.image("MY LOGO.png")
     st.balloons()            
+
+   
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)    
     
