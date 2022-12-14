@@ -52,7 +52,7 @@ if choice == "About":
        I CREATED THIS APPLICATION SO AS TO HELP PEOPLE TO BE ABLE TO REMOVE BACKGROUND FROM YOUR IMAGES.
        ''')
     image = Image.open("my.jpg")
-    st.image(image,caption=None, width=490, use_column_width=100, clamp=False, channels="RGB", output_format="auto")
+    st.image(image,caption=None, width=0, use_column_width=100, clamp=False, channels="RGB", output_format="auto")
 
     
     st.subheader("ABOUT THE APP")
