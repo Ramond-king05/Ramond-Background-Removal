@@ -1,4 +1,0 @@
-streamlit
-rembg
-base64 
-io
